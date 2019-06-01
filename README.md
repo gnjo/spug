@@ -1,5 +1,5 @@
 # spug
-spug 
+spug simple pattern pug
 
 # usage
 spug(layout,retType); //retType default html
