@@ -1,5 +1,8 @@
 # spug
 spug simple pattern pug
+```
+depth single space->" " only.
+```
 
 # usage
 spug(layout,retType); //retType default html
