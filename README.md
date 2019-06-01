@@ -10,6 +10,9 @@ spug(layout,retType); //retType default html
 let layout=`
 body
  .cls2 aaabbccc
+  .cmd1 cmd1
+  .cmd2 cmd2
+  .cmd3 cmd3
 head
  .cls(data-x="xyz" onclick="x()") xxxyyyzz
 `
