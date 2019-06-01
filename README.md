@@ -2,7 +2,7 @@
 spug 
 
 # usage
-spug(layout,fragmentflg); //fragmentflg default false
+spug(layout,retType); //retType default html
 ```js
 let layout=`
 body
@@ -10,8 +10,7 @@ body
 head
  .cls(data-x="xyz" onclick="x()") xxxyyyzz
 `
-let el=spug(layout)
-;//return el
-let fr=spug(layout,true)
-;//return fragment
+let html=spug(layout) //default html
+let fr=spug(layout,'fr') //fragment
+let el=spug('.cls(data-x="xyz")','el') //need top element
 ```
