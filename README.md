@@ -22,5 +22,5 @@ let el=spug('.cls(data-x="xyz")','el') //need top element
 ```
 
 ```
-[depth][tag] [text]
+[depth][tag(param)] [text]
 ```
