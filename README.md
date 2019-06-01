@@ -20,3 +20,7 @@ let html=spug(layout) //default html
 let fr=spug(layout,'fr') //fragment
 let el=spug('.cls(data-x="xyz")','el') //need top element
 ```
+
+```
+[depth][tag] [text]
+```
