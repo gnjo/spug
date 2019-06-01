@@ -2,6 +2,7 @@
 spug 
 
 # usage
+spug(layout,fragmentflg); //fragmentflg default false
 ```js
 let layout=`
 body
@@ -9,7 +10,8 @@ body
 head
  .cls(data-x="xyz" onclick="x()") xxxyyyzz
 `
-let fr=spug(layout)
+let el=spug(layout)
+;//return el
+let fr=spug(layout,true)
 ;//return fragment
-
 ```
